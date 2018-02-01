@@ -5,9 +5,10 @@
  * Date: 18-2-1
  * Time: 下午2:53
  */
-namespace app\src\singleton;
+namespace app\src\builder;
 /*
- *生产多个产品的组合
+ *生产一个个产品的各个部分。
+ * 工厂模式是生产一个个产品。
  */
 
 class builder{

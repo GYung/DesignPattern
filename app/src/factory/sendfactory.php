@@ -49,3 +49,4 @@ class SendFactoryStatic {
     }
 }
 
+(SendFactoryStatic::smssender())->sender();

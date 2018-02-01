@@ -8,7 +8,7 @@
 /*
  * 将一个类的接口适配成用户希望的，类和接口不兼容的问题。下列中可以替换类source来更换合适接口实现类
  */
-class classadapter extends classsource implements classinterface{
+class classadapter extends source implements decoratorinterface{
 
     public function action()
     {
@@ -17,10 +17,10 @@ class classadapter extends classsource implements classinterface{
     }
 }
 //对象适配器　通过传入对象来兼容接口　希望转换一个对象
-class objectdapter implements classinterface{
+class objectdapter implements decoratorinterface{
 
     protected $object;
-    public function __construct(classsource $object)
+    public function __construct(source $object)
     {
         $this->object=$object;
     }

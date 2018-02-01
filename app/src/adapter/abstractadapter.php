@@ -5,7 +5,7 @@
  * Date: 18-2-1
  * Time: 下午4:34
  */
-abstract class abstractadapter implements classinterface {
+abstract class abstractadapter implements decoratorinterface {
     public function method()
     {
         // TODO: Implement method() method.

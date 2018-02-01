@@ -1,0 +1,3 @@
+<phpunit bootstrap="app/index.php">
+</phpunit>
+

@@ -8,6 +8,7 @@
 namespace app\src\template;
 abstract class abstracttemplate{
     public function spilt(){
+        $this->method();
         echo '父类';
     }
     abstract public function method();

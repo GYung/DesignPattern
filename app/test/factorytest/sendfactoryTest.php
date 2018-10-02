@@ -9,8 +9,7 @@
 namespace app\test\factorytest;
 
 use \PHPUnit\Framework\TestCase;
-use app\src\factory\sendfactory;
-
+use app\factory\SendFactorySimple;
 
 class sendfactoryTest extends TestCase {
     protected $app;

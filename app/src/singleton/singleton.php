@@ -5,7 +5,7 @@
  * Date: 18-2-1
  * Time: 下午2:53
  */
-namespace app\src\singleton;
+namespace app\singleton;
 /*
  * 1该类创建繁琐
  * ２核心类，控制整个流程

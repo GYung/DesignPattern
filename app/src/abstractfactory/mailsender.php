@@ -5,9 +5,9 @@
  * Date: 18-1-31
  * Time: 下午2:03
  */
-namespace app\src\abstractfactory;
+namespace app\abstractfactory;
 
-use app\src\abstractfactory\sendinerface;
+use app\abstractfactory\sendinerface;
 class mailsender implements sendinerface{
 
     public function sender()

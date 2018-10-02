@@ -6,10 +6,10 @@
  * Time: 下午2:05
  */
 
-namespace app\src\factory;
+namespace app\factory;
 
-use app\src\factory\mailsender;
-use app\src\factory\smssender;
+use app\factory\mailsender;
+use app\factory\smssender;
 //工厂模式：大量产品需要创建且具有统一的接口
 //普通工厂：通过传入参数实例化类
 class SendFactorySimple {

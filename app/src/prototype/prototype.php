@@ -5,11 +5,11 @@
  * Date: 18-2-1
  * Time: 下午2:53
  */
-namespace app\src\prototype;
+namespace app\prototype;
 /*
  * 先创建一个原型对象，然后通过clone创建新的对象，试用大对象创建，new消耗大因为。
  */
-use app\src\prototype\prototypeinterface;
+use app\prototype\prototypeinterface;
 class prototype implements prototypeinterface {
 
     private $_name;

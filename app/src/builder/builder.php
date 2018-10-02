@@ -5,7 +5,7 @@
  * Date: 18-2-1
  * Time: 下午2:53
  */
-namespace app\src\builder;
+namespace app\builder;
 /*
  *生产一个个产品的各个部分。
  * 工厂模式是生产一个个产品。

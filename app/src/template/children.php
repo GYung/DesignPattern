@@ -8,8 +8,8 @@
 /*
  * 模板方法，模板是抽象类，定义主方法和抽象方法，主方法中调用这些抽象方法(骨架)，子类实现抽象方法
  */
-namespace app\src\template;
-use app\src\template\abstracttemplate;
+namespace app\template;
+use app\template\abstracttemplate;
 class children extends abstracttemplate {
 
     public function method()

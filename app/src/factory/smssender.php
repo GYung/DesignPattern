@@ -5,7 +5,7 @@
  * Date: 18-1-31
  * Time: 下午2:03
  */
-namespace app\src\factory;
+namespace app\factory;
 
 class smssender implements sendinerface{
 

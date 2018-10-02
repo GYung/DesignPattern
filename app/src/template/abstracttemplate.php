@@ -5,7 +5,7 @@
  * Date: 18-2-2
  * Time: 上午10:25
  */
-namespace app\src\template;
+namespace app\template;
 abstract class abstracttemplate{
     public function spilt(){
         $this->method();

@@ -5,7 +5,7 @@
  * Date: 18-2-1
  * Time: 下午3:54
  */
-namespace app\src\prototype;
+namespace app\prototype;
 
 interface prototypeinterface{
     public function shallowcopy();//浅复制

@@ -5,10 +5,10 @@
  * Date: 18-2-1
  * Time: 下午2:19
  */
-namespace app\src\abstractfactory;
+namespace app\abstractfactory;
 
-use  app\src\abstractfactory\providerinerface;
-use app\src\abstractfactory\smssender;
+use  app\abstractfactory\providerinerface;
+use app\abstractfactory\smssender;
 
 
 //功能接口使得可以扩展更多产品－但当每需要一个产品就需要一一实例化

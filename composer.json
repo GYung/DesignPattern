@@ -1,11 +1,18 @@
 {
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  },
+
     "require": {
         "phpunit/phpunit": "^6.5"
     },
     "autoload": {
 
         "psr-4": {
-            "app\\": "app"
+            "app\\": "app/src"
         }
     }
 }
